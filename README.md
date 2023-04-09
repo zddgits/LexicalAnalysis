@@ -18,6 +18,7 @@ program  begin  end  var  integer  if  then  else  do  while
 ### 5）输出方式：文本文件（如：.txt）。
 每个单词表示成二元组（单词种别，属性值），参见后面输出形式。
 ### 6）测试程序样例：
+```pascal
 program example;
 var k, m, n: integer;
 begin
@@ -27,6 +28,9 @@ n:=k+m;
 if n>10 then
 k:=k-1;
 end;
+```
+
+
 ### 7）输出形式：
 （1）（1，—）
 （2）（11，example）
